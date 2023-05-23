@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Scrapper</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <script src="https://kit.fontawesome.com/740255848a.js" crossorigin="anonymous"></script>
+  <style>
+    .container i {
+      color: black;
+      font-size: 32px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1><i class="fa-solid fa-magnifying-glass"></i> Job Scrapper</h1>
+    <hgroup>
+      <h3>Which Job Do You Search For?</h3>
+      <h5>Recommended: Python, Java, Web, Intern, Co-op, etc...</h5>
+    </hgroup>
+    <form action="/search" method="get">
+    <input type="text" name="keyword" placeholder="Write a keyword" required>
+    <button>Search</button>
+  </form>
+  </main>
+</body>
+</html>
